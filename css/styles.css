@@ -1,0 +1,153 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+		
+
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #E23838;
+            color: white;
+            padding: 1px;
+        }
+        header h1 {
+            margin-left: 10px; /* Add some space between the logo and header text */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #163FA5;
+            padding: 1px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #CDB34A;
+            border-radius: 5px;
+        }
+        .main {
+            display: flex;
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .content {
+            flex: 2;
+            padding: 1px;
+        }
+        .image {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .image img {
+            width: auto;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 1px;
+            background-color: #E23838;
+            color: white;
+            margin-top: 150px;
+        }
+        .logo {
+            width: 50px;
+            height: auto;
+        }   
+        .colored-box {
+            background-color: #FFDE59;
+            padding: 5px 10px;
+            border-radius: 5px; /* Optional: For rounded corners */
+        
+    }
+    h1,h2, p{
+    text-align: center;
+	display: block; 
+    }
+	h2 {
+    margin-bottom: 10px; /* Reduces space below the heading */
+	}
+
+	.table-container {
+		margin-top: 0; /* Removes any extra space above the table */
+	}
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center form elements */
+        gap: 15px;
+    }
+
+    .form-group {
+        width: 100%;
+        max-width: 400px; /* Prevents input fields from being too wide */
+    }
+
+    label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center; /* Center text inside input fields */
+    }
+
+    button {
+        background-color: #007BFF;
+        color: white;
+        font-size: 16px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 50%;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+	table {
+    width: 80%;  /* Makes sure the table isn't too wide */
+    margin: 20px auto;  /* Centers the table horizontally */
+    border-collapse: collapse;
+    text-align: left;
+    background-color: white; /* Ensures table background remains consistent */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for better visibility */
+	border: 2px solid black; /* Outline for the entire table */
+	}
+	.table-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: auto; /* Full viewport height */
+	}
+	
+	
+	th, td {
+    border: 1px solid black; /* Outline for each cell */
+    padding: 10px;
+}
